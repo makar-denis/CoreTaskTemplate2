@@ -11,7 +11,6 @@ public class UserDaoJDBCImpl implements UserDao {
     Connection connect = Util.getConnect();
 
     public UserDaoJDBCImpl() {
-
     }
 
     public void createUsersTable() {
